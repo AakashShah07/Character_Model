@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment
+ramayana_env/
+
+# Ignore model and large data files (e.g., GPT-2 models or text chunks)
+*.pt
+*.h5
+*.bin
+*.gz
+*.tar
+*.zip
+
+# Ignore logs
+*.log
+
+# Ignore dataset and text files
+*.txt
+*.csv
+
+# Ignore generated files
+*.out
+*.dat
+*.pickle
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files (e.g., IDE/editor specific)
+.vscode/
+.idea/
+*.swp
+*.swo
