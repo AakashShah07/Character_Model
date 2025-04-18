@@ -31,3 +31,19 @@ sentence_embeddings = F.normalize(sentence_embeddings, p=2, dim=1)
 
 print("Sentence embeddings:")
 print(sentence_embeddings)
+
+# {
+#   "book":
+#   "canto":
+#   "text":[],
+#   "emotions"[]:
+#   "themes":[],
+#   "event_type":
+#   "lesson_type":
+#   "dharma": "",
+#   "summary": "",
+#   "characters": [],
+#   "characters_summary": [],
+# }
+#  for all 130 Cantos.
+
